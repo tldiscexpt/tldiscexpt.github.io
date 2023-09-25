@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <style>
+    body {
+      font-family: 'Open Sans', serif;
+      font-size: 48px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Hide the main page's scrollbar */
+    }
+    .header {
+      padding: 10px;
+      text-align: center;
+      font-size: 32px;
+      margin: 0;
+    }
+    .content {
+      height: 90vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .iframe-container {
+      width: 100%;
+      height: 90%;
+      overflow: auto; /* Enable scrolling within the iframe container */
+    }
+    .iframe-container iframe {
+      width: 100%;
+      height: 90%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    Research: Chatbot mediation on discussion 
+  </div>
+  <div class="footer">
+    <script async defer src="https://www.uchat.com.au/js/widget/wppzwpakbcucb1xp/popup.js"></script>
+  </div>
+  <div class="content">
+    <div class="iframe-container">
+      <iframe src='https://nus.syd1.qualtrics.com/jfe/form/SV_cSWKdci3AX53jaS'></iframe>
+    </div>
+  </div>
+</body>
+</html>

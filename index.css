@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans', serif;
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide the main page's scrollbar */
+}
+
+.header {
+  font-size: 30px;
+  padding: 12px;
+  text-align: center;
+  margin: 0;
+}
+
+.content {
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr.line {
+    border: 2px solid rgb(64, 224, 208);
+    border-radius: 2px;
+    width: 90%;
+}
